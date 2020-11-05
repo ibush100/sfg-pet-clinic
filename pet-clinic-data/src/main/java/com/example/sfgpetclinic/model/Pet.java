@@ -3,14 +3,14 @@ package com.example.sfgpetclinic.model;
 import java.time.LocalDate;
 
 public class Pet extends BaseEntity {
-    private petType petType;
+    private PetType petType;
     private Owner owner;
 
-    public com.example.sfgpetclinic.model.petType getPetType() {
+    public PetType getPetType() {
         return petType;
     }
 
-    public void setPetType(com.example.sfgpetclinic.model.petType petType) {
+    public void setPetType(PetType petType) {
         this.petType = petType;
     }
 
