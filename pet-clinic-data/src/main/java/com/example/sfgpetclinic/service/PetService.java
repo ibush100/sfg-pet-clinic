@@ -4,6 +4,4 @@ import com.example.sfgpetclinic.model.Pet;
 
 public interface PetService extends CrudService <Pet, Long> {
 
-    Pet findbyId(Long id);
-
 }
